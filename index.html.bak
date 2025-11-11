@@ -10,9 +10,9 @@
 <script src="openseadragon-bin-5.0.1/openseadragon.min.js"></script>
 <script>
     OpenSeadragon({
-        id: "openseadragon1",
+		id: "openseadragon1",
 		prefixUrl: "openseadragon-bin-5.0.1/images/"
-        tileSources: "images/h12.dzi"
+		tileSources: "images/h12.dzi"
     });
 </script>
 </body>
