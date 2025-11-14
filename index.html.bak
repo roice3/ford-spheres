@@ -4,16 +4,64 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ford Spheres</title>
+    <style type="text/css">
+        .style0 {
+            text-align: center;
+            width: 800px;
+            margin: 0 auto;
+        }
+        .style1 {
+            text-align: left;
+            width: 800px;
+            margin: 0 auto;
+        }
+        .style3 {
+            font-size: x-large;
+        }
+    </style>
+    <link rel="shortcut icon" href="http://roice3.org/favicon.ico" type="image/x-icon">
 </head>
 <body>
-<div id="openseadragon1" style="width: 800px; height: 800px;"></div>
-<script src="openseadragon-bin-5.0.1/openseadragon.min.js"></script>
-<script>
-    OpenSeadragon({
-		id: "openseadragon1",
-		prefixUrl: "openseadragon-bin-5.0.1/images/",
-		tileSources: "images/h12.dzi"
-    });
-</script>
+
+    <div class="style0">
+        <h1>Ford Spheres</h1>
+        <h4>Illustrating Number Theory</h4>
+        <em><a href="http://roice3.org">Roice Nelson</a></em>
+    </div>
+	
+<center>
+
+	<br />
+	<br />
+	<h3>Ford Balls, hyperbolic distance of 6</h3>
+
+	<div id="openseadragon1" style="width: 800px; height: 500px;"></div>
+	<script src="openseadragon-bin-5.0.1/openseadragon.min.js"></script>
+	<script>
+		OpenSeadragon({
+			id: "openseadragon1",
+			prefixUrl: "openseadragon-bin-5.0.1/images/",
+			tileSources: "images/ball_h6.dzi"
+		});
+	</script>
+
+	<br />
+	<br />
+	<h3>Ford Spheres, hyperbolic distance of 12</h3>
+
+	<div id="openseadragon1" style="width: 800px; height: 500px;"></div>
+	<script src="openseadragon-bin-5.0.1/openseadragon.min.js"></script>
+	<script>
+		OpenSeadragon({
+			id: "openseadragon1",
+			prefixUrl: "openseadragon-bin-5.0.1/images/",
+			tileSources: "images/h12.dzi"
+		});
+	</script>
+
+</center>
+
+
 </body>
+
 </html>
